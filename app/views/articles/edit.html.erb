@@ -1,4 +1,4 @@
-<h1>新規論文投稿</h1>
+<h1>論文更新フォーム</h1>
 <%= form_with model: @article, local: true do |form| %>
 
 <p>
@@ -7,9 +7,9 @@
 </p>
 
 <p>
-  本文<br>
+  商品詳細<br>
   <%= form.text_area :body %>
 </p>
 
-  <%= form.submit "投稿" %>
+  <%= form.submit "更新" %>
 <% end %>
